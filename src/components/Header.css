@@ -1,0 +1,40 @@
+header {
+    background-color: rgb(224, 202, 7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.186);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 4rem;
+    letter-spacing: 0.11em;
+    padding: 0.1em 0;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-items li {
+    list-style: none;
+
+}
+
+.navbar-items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding-left:0.5em;
+}
