@@ -2,12 +2,17 @@
   display: flex;
   /* border: 1px solid red; */
   flex-flow: column nowrap;
+  min-width: 10em;
+  min-height: 10em;
   max-width: 30em;
   margin: 2em;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.111);
   position: relative;
   align-self:flex-start;
+  /* background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png"); */
+  background-image: url("./textured-paper.png");
+  background-color: rgba(255, 255, 0, 0.386);
 }
 
 .card h3 {
@@ -36,6 +41,7 @@
   font-size: 2.5rem;
   border: none;
   background-color: transparent;
-  color: rgb(224, 202, 7);
+  color: rgb(255, 89, 0);
+  font-weight: 700;
   cursor: pointer;
 }

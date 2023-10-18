@@ -1,6 +1,8 @@
 header {
-    background-color: rgb(224, 202, 7);
+    background-color: rgb(247, 223, 9);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.186);
+    background-image: url("../scribble-light.png");
+    
 }
 
 .container {
